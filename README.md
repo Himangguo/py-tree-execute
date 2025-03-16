@@ -16,8 +16,7 @@
 - TypeScript
 - Element Plus
 - Highlight.js
-- Axios
-
+- 
 ## 开发环境要求
 
 - Node.js >= 16
@@ -55,8 +54,6 @@ src/
   ├── components/     # 组件目录
   │   ├── CodeTree.vue    # 代码树组件
   │   └── CodeBlock.vue   # 代码块组件
-  ├── services/      # 服务目录
-  │   └── api.ts     # API服务
   ├── types/         # 类型定义
   │   └── index.ts   # 接口类型
   ├── App.vue        # 主应用组件
