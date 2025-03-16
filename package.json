@@ -1,0 +1,35 @@
+{
+  "name": "py-tree-execute",
+  "private": true,
+  "version": "0.0.0",
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "build": "vue-tsc -b && vite build",
+    "preview": "vite preview"
+  },
+  "dependencies": {
+    "@antv/g6": "^5.0.44",
+    "@element-plus/icons-vue": "^2.3.1",
+    "@types/echarts": "^5.0.0",
+    "@vue-flow/background": "^1.3.2",
+    "@vue-flow/controls": "^1.1.2",
+    "@vue-flow/core": "^1.42.3",
+    "@vue-flow/minimap": "^1.5.2",
+    "axios": "^1.8.3",
+    "echarts": "^5.6.0",
+    "element-plus": "^2.9.6",
+    "highlight.js": "^11.11.1",
+    "pyodide": "^0.27.3",
+    "vue": "^3.5.13",
+    "vue-echarts": "^7.0.3"
+  },
+  "devDependencies": {
+    "@types/highlight.js": "^10.1.0",
+    "@vitejs/plugin-vue": "^5.2.1",
+    "@vue/tsconfig": "^0.7.0",
+    "typescript": "~5.7.2",
+    "vite": "^6.2.0",
+    "vue-tsc": "^2.2.4"
+  }
+}
